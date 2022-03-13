@@ -5,5 +5,7 @@ const arrayOddAndEvenNumbers = (arr) => {
   console.log('Четных: ', evenNumbers.length);
   console.log('Нечетных: ', oddNumbers.length);
   console.log('Нулей: ', zero.length);
+  const sumArray = [evenNumbers.length, oddNumbers.length, zero.length];
+  console.log(sumArray);
 };
 module.exports = arrayOddAndEvenNumbers;
