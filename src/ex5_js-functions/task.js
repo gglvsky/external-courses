@@ -7,11 +7,11 @@ const Calculator = () => {
       }
       return add;
     },
-    substract: function substract(num) {
+    subtract: function subtract(num) {
       if (typeof num === 'number') {
         result -= num;
       }
-      return substract;
+      return subtract;
     },
     divide: function divide(num) {
       if (typeof num === 'number') {
@@ -34,5 +34,5 @@ const Calculator = () => {
     },
   };
 };
-const calculator = Calculator;
+const calculator = Calculator();
 module.exports = calculator;
