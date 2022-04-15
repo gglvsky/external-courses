@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="maincss.css">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        .container {
+            text-shadow: 1px 1px 2px black;
+            height: 600px;
+            background-color: green;
+        }
+        .paragraphs {
+            font-family: Roboto Regular;
+            text-transform: uppercase;
+            height: 40cm;
+            background-color: #42f557;
+        }
+        .tables {
+            color: white;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+        }
+    </style> 
+</head>
+<body>
+    <h1>HTML Basics</h1>
+    <div class="lists">
+    <h2>Lists</h2>
+    <ol><h3>Ordered list</h3>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+        <li>fourth item</li>
+        <li>fifth item</li>
+    </ol>
+    <ul><h3>Unordered list</h3>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+    <div class="container">
+    <dl><h3>Description list</h3>
+        <dt>Name</dt>
+        <dd>Godzilla</dd>
+        <dt>Born</dt>
+        <dd>1952</dd>
+        <dt>Birthplace</dt>
+        <dd>Japan</dd>
+        <dt>Color</dt>
+        <dd>Green</dd>
+    </dl>
+    <ul><h3>Nested list</h3>
+        <li>List item one</li>
+        <li>List item two with subterms<ul>
+            <li>Subterm 1<ul>
+                <li>SubSubterm 1</li>
+                <li>subSubterm 2</li>
+            </ul></li>
+            <li>Subterm 2</li>
+        </ul></li>
+        <li>Final last item</li>
+    </ul>
+    </div>
+    <ul><h3>List with links</h3>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <hr>
+    </div>
+    <div class="paragraphs">
+    <h2>Paragraphs</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.<br> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?<br> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <hr>
+    </div>
+    <div class="tables">
+    <h2>Tables</h2>
+    <table>
+        <tr>
+            <th><h3>First name</h3></th>
+            <th><h3>Last name</h3></th>
+        </tr>
+        <tr>
+            <th>John</th>
+            <th>Doe</th>
+        </tr>
+        <tr>
+            <th>Jane</th>
+            <th>Doe</th>
+        </tr>
+    </table>
+    <hr>
+    </div>
+    <div class="image">
+    <h2>Image</h2>
+    <img src="https://scientificrussia.ru/images/b/teb-large.jpg" height="30%" width="30%">
+    <hr>
+    <div class="html-code">
+    </div>
+    <h2>Pre tag</h2>
+    <p style ="font-family: Roboto Regular;">if (time = 20){<br>
+        greeting = 'Good day';<br>
+    } else {<br>
+        greeting = 'Good evening';<br>
+    }</p>
+    </div>
+</body>
+</html>
